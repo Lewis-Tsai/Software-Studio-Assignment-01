@@ -1,0 +1,82 @@
+.container {
+    max-width: 1200px;
+}
+
+.dark-mode {
+  background-color: #121212 !important;
+  color: #FFFFFF !important;
+}
+.light-mode {
+  background-color: white !important;
+  color: black !important;
+}
+
+
+canvas{border: 1px solid #000;}
+body{background-color:#ebebeb; cursor:crosshair;}
+
+#colors{ display: block; margin:10px 0; height: 25px; line-height: 25px; }
+
+#colors > span{
+  display: inline-block; width: 20px; height: 20px; margin-right: 2px; cursor: pointer;
+}
+
+#painting_board, #control_panel{
+  display: inline-block;
+  vertical-align : top;
+  margin:0px 5px 15px 60px;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 175px;
+  height: 10px;
+  border-radius: 5px;  
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 17px;
+  height: 17px;
+  border-radius: 50%; 
+  background: #04AA6D;
+  cursor: pointer;
+}
+
+#color_text_panel, #video_container{
+  display: inline-block;
+}
+
+#video_container{
+  margin-left: 10px;
+}
+
+#btn1_1, #btn1_2, #btn1_3, #btn2_1, #btn2_2, #btn2_3, #btn3_1, #btn3_2, #btn3_3, #fileInput{
+  display: inline-block;
+  vertical-align : top;
+  margin-bottom: 10px;
+}
+#select_font{
+  margin-bottom: 10px;
+}
+
+#switch_zone1, #switch_zone2{
+  display: inline-block;
+  vertical-align : top;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+#control_panel_row5{
+  margin-bottom: 10px;
+}
+
+#switch_zone3{
+  margin-top: 10px;
+}
